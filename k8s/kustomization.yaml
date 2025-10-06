@@ -3,7 +3,7 @@ kind: Kustomization
 
 resources:
   - deployment.yaml
-  - service12.yaml
+  - service.yaml
 
 commonLabels:
   app: myapp
